@@ -1,0 +1,613 @@
+10/11, 09:27] newCODE: var=101
+
+print(var)
+[10/11, 09:28] newCODE: var=-42
+print("-42")
+[10/11, 09:28] newCODE: pi=3.14159
+
+print(pi)
+[10/11, 09:29] newCODE: t=True
+
+f=False
+
+print("Some values are",t)
+
+print("Others are",f)
+
+print("And then, there is Schrodinger's cat")
+[10/11, 09:30] newCODE: sp=" "
+
+print("* * *")
+[10/11, 10:21] newCODE: g=9.8
+
+int_g=int(g)
+
+print(int_g)
+[10/11, 10:22] newCODE: i=4
+
+fl=float(i)
+
+print(fl)
+[10/11, 10:23] newCODE: stri="220051"
+
+i=str(stri)
+
+print(i)
+[10/11, 10:23] newCODE: i=98180101
+
+stri=str(i)
+
+print(stri)
+[10/11, 10:28] newCODE: name='HelLoEdystProgRammer'
+
+# your code below this line #
+
+print(name.upper())
+[10/11, 10:28] newCODE: Name='ReaLmEdystProgRammerhvvdvkjhoillhdsiolksdluvsdkjhlkdiufdjkkvdsoajckvuskcnkjasdvkknkdfjkvb'
+### your answer below this line ###
+
+print("Ram")
+[10/11, 10:29] newCODE: agent_name='ReaLmEdystProgRammerhvvdvkjhoillhdsiolksdluvsdkjhlkdiufdjkkvdsoajckvuskcnkjasdvkknkdfjkvb'
+
+print(agent_name[2:6])
+[10/11, 10:29] newCODE: vehicle_name='niaLmEdystProgRammerhvvdvkjhoillhdsiolksdluvsdkjhlkdiufdjkkvdsoajckvuskcnkjasdvkknkdfjnja'
+
+name1=vehicle_name[0:2]
+
+name2=vehicle_name[-3:-1]
+
+print(name1.upper()+name2+vehicle_name[-1])
+[10/11, 10:30] newCODE: word='Hello'
+
+print(word)
+
+print(word)
+
+print(word)
+[10/11, 10:30] newCODE: word='Hello'
+
+print(word)
+
+print(word)
+
+print(word)
+
+print(word)
+
+print(word)
+[10/11, 10:31] newCODE: my_str='HeLLoEdystPROgRammer'
+
+print(my_str.lower())
+[10/11, 10:31] newCODE: name=input()
+
+print(f"Hello {name}, glad to meet you!")
+[10/11, 10:32] newCODE: age=int(input())
+
+print(f"Hi user, your age is {age}. Cool!")
+[10/11, 10:32] newCODE: speed=float(input())
+
+print(f"This car is really fast - clocking {speed} kmph")
+[10/11, 10:32] newCODE: shoe=input()
+
+size=int(input())
+
+print(f"User wears {shoe} - size is {size}")
+[10/11, 10:33] newCODE: name=input()
+
+echo=int(input())
+
+string=name*echo
+
+print(string)
+[10/11, 11:11] newCODE: temp=num1
+
+num1=num2
+
+num2=temp
+[10/11, 11:11] newCODE: length=int(input())
+
+
+
+breadth=int(input())
+
+
+
+per=2*(length+breadth)
+
+
+
+area=length*breadth
+
+
+
+print("Perimeter:",per)
+
+
+
+print("Area:",area)
+[10/11, 11:11] newCODE: p=int(input())
+
+
+
+r=int(input())
+
+
+
+si=int((p*r*2)/100)
+
+
+
+print(si)
+[10/11, 11:12] newCODE: a=int(input())
+
+
+
+d=int(input())
+
+
+
+n=int(input())
+
+
+
+sum =int((n/2)*((2*a)+(n-1)*d))
+
+
+
+print(sum)
+[10/11, 11:12] newCODE: n=int(input())
+
+
+
+sum= int((n*(n+1))/2)
+
+
+
+print(sum)
+[10/11, 12:48] newCODE: specialPrint(37)
+
+specialPrint(93)
+
+specialPrint(14)
+
+specialPrint(568)
+[10/11, 12:49] newCODE: specialSum(1,1,1)
+
+
+
+specialSum(2,15,79)
+
+
+
+specialSum(4,5,6)
+
+
+
+specialSum(24,25,23)
+
+
+
+specialSum(-1,-3,4)
+[10/11, 12:49] newCODE: funnyPrint("insert delete")
+funnyPrint("there are two ways to LIVE")
+funnyPrint("Programmer 4 lIFE")
+[10/11, 12:50] newCODE: nameChanger("vowel","l")
+
+nameChanger("superhero","r")
+
+nameChanger("Java","a")
+[10/11, 12:51] newCODE: largestPower(81)
+
+
+
+largestPower(181)
+
+
+
+largestPower(1881)
+[10/11, 12:52] newCODE: def solve(num):
+# write your program from here
+
+
+
+i=1
+
+while(i<=6):
+
+print(num*i,end=" ")
+
+i=i+1
+[10/11, 12:52] newCODE: def solve(num):
+# write your program from here
+return(abs(num-32))
+[10/11, 12:52] newCODE: def solve(String):
+# write your program from here
+return(String+"Python")
+[10/11, 12:53] newCODE: def solve(n,String):
+# write your program from here
+return(String[n-1])
+[10/11, 12:54] newCODE: def solve(num):
+# write your program from here
+
+
+
+reversed_num=0
+
+while(num != 0):
+
+digit = num % 10
+
+reversed_num = reversed_num * 10 + digit
+
+num//=10
+
+return(reversed_num)
+[10/11, 12:54] newCODE: def solve(x1,y1,x2,y2):
+# write your program from here
+dist= (((x2-x1)*2)+((y2-y1)2))*0.5
+
+return(dist)
+[10/11, 12:54] newCODE: def solve(num):
+# write your code from here
+return(num%10)
+[10/11, 12:56] newCODE: def solve(num1,num2):
+# write your code from here
+if num1==num2:
+print(True)
+else:
+print(False)
+[10/11, 12:56] newCODE: def solve(num1,num2):
+# write your code from here
+if num1>num2:
+print(num1)
+else:
+print(num2)
+[10/11, 12:56] newCODE: def solve(num):
+# write your code from here
+if (num%2):
+print("Odd")
+else:
+print("Even")
+[10/11, 12:57] newCODE: def solve(num,start,end):
+# write your code from here
+if (num>=start) and (num<=end):
+print("In range")
+else:
+print("Not in range")
+[10/11, 12:57] newCODE: def solve(num):
+# write your code from here
+if ((num%20==0)or(num%9==0)):
+print("True")
+else:
+print("False")
+[10/11, 12:57] newCODE: def solve(chocolates,is_weekend):
+# write your code from here
+if is_weekend:
+if chocolates>=20:
+print("true")
+else:
+print("false")
+else:
+if((chocolates>=20) and chocolates<=40):
+print("true")
+else:
+print("false")
+[10/11, 12:58] newCODE: def solve(acting_power,rating):
+# write your code from here
+if ((acting_power<=8 and acting_power>=2) and (rating<=8 and rating>=2)):
+print("Maybe")
+elif((acting_power<2) or (rating<2)):
+print("No")
+else:
+print("Yes")
+[10/11, 12:58] newCODE: def solve(score,is_birthday):
+# write your code from here
+if is_birthday:
+score+=5
+if(score>=81):
+i=2
+elif(score>=61 and score<=80):
+i=1
+else:
+i=0
+else:
+if(score>=81):
+i=2
+elif(score>=61 and score<=80):
+i=1
+else:
+i=0
+print(i)
+[10/11, 12:59] newCODE: def solve(num1,num2):
+# write your code from here
+n=abs(num1-num2)
+n1=num1+num2
+if (num1==7 or num2==7 or n1==7 or n==7):
+print("Lucky!")
+else:
+print("Not Lucky!")
+[10/11, 12:59] newCODE: def solve(num):
+# write your code from here
+if num%13==0 or num%13==1:
+print("Crazy")
+else:
+print("Not Crazy")
+[10/11, 13:00] newCODE: def solve(num):
+# write your code from here
+if (num%3==0 and num%5==0):
+print("FizzBuzz")
+elif(num%3==0):
+print("Fizz")
+elif(num%5==0):
+print("Buzz")
+else:
+print(num)
+[10/11, 13:00] newCODE: def solve(num1,num2):
+# write your code from here
+if (num1>=13 and num1<=19) or (num2>=13 and num2<=19):
+print("40")
+else:
+print(num1+num2)
+[10/11, 13:01] newCODE: def solve(morning,mother,sleep):
+# write your code from here
+if sleep:
+print("False")
+elif morning:
+if mother:
+print("True")
+else:
+print("False")
+else:
+print("True")
+[10/11, 13:01] newCODE: def solve(string):
+# write your code from here
+if (string[0]=='f' and string[len(string)-1]=='b'):
+print("FizzBuzz")
+elif (string[0]=='f'):
+print("Fizz")
+elif (string[len(string)-1]=='b'):
+print("Buzz")
+else:
+print(string)
+[10/11, 13:01] newCODE: def solve(num1,num2,num3):
+# write your code from here
+k=(l(num1,num2,num3) or l(num2,num1,num3) or l(num3,num1,num2))
+if k:
+print("True")
+else:
+print("False")
+def l(a,b,c):
+return a+b==c
+[10/11, 13:02] newCODE: def solve(target,big_bricks,small_bricks):
+# write your code from here
+k=make_bricks(small_bricks,big_bricks,target)
+if k:
+print("Possible")
+else:
+print("Impossible")
+def make_bricks(small, big, goal):
+
+def b_req(big, goal):
+req = goal // 5
+if req <= big and req > 0 :
+return req
+else:
+return big
+if goal < 5:
+s_req = goal
+else:
+s_req = goal - ( b_req(big, goal) * 5 )
+
+if small + big * 5 < goal or s_req > small :
+return False
+elif s_req <= small :
+return True
+[10/11, 13:02] newCODE: def solve(num1,num2):
+# write your code from here
+if(num1>21 or num2>21 ):
+print("Rematch")
+elif(num1==num2):
+print("Rematch")
+elif(num1>num2):
+print("Player1")
+elif(num2>num1):
+print("Player2")
+[10/11, 13:03] newCODE: def solve(num1,num2,special_mode):
+# write your code from here
+if (num1==num2 and num1==6 and special_mode ):
+print(num1+1)
+elif(num1==num2 and special_mode) :
+print(num1+num2+1)
+else:
+print(num1+num2)
+[10/11, 13:03] newCODE: def solve(num1,num2):
+# write your code from here
+if num1==num2:
+print("0")
+elif(num1%6==num2%6):
+if num1>num2:
+print(num2)
+else:
+print(num1)
+else:
+if num1>num2:
+print(num1)
+else:
+print(num2)
+[10/11, 13:03] newCODE: k=int(input(""))
+for i in range(k):
+n=input("")
+if n[2]=='t':
+if (int(n[0])>=2 and int(n[0])<=6):
+print("7:00")
+else:
+print("9:00")
+else:
+if (int(n[0])>=2 and int(n[0])<=6):
+print("5:00")
+else:
+print("6:00")
+[10/11, 13:04] newCODE: def solve(A,element):
+# write your code here
+A.append(element)
+return A
+[10/11, 13:04] newCODE: def solve(jim_dishes,pam_dishes):
+# write your code here
+jim_dishes.extend(pam_dishes)
+return jim_dishes
+[10/11, 13:05] newCODE: def solve(jim_dishes):
+# write your code here
+jim_dishes.remove('pudding')
+return jim_dishes
+[10/11, 13:05] newCODE: def solve(sales_list):
+# write your code here
+sales_list.reverse()
+sales_list.remove(sales_list[2])
+sales_list.reverse()
+return sales_list
+[10/11, 13:05] newCODE: def solve(stanley_list):
+# write your code here
+k=stanley_list[0]
+stanley_list.insert(k,k)
+return stanley_list
+[10/11, 13:06] newCODE: def solve(Andy_list):
+# write your code here
+k=len(Andy_list)
+n=int(k/2)
+if k%2==0:
+l=Andy_list[0:n]
+else:
+l=Andy_list[-n:]
+return l
+[10/11, 13:06] newCODE: def solve(A):
+# write your code here
+c=A[0]
+return A[c+1:]
+[10/11, 13:06] newCODE: def solve(A):
+# write your code here
+list_b = [2,19,8]
+pos= [2,4,7]
+for i in range(len(list_b)):
+A.insert(pos[i], list_b[i])
+return A
+[10/11, 13:07] newCODE: def solve(A):
+# write your code here
+indexes = [1,4,8]
+for index in sorted(indexes, reverse=True):
+del A[index]
+return A
+[10/11, 13:07] newCODE: def solve(A):
+# write your code here
+print(f"Maximum:{max(A)}")
+print(f"Sum:{sum(A)}")
+[10/11, 13:08] newCODE: def solve(A,key):
+# write your code here
+c=0
+flag=0
+for i in A:
+if i==key:
+flag=1
+print(c)
+c+=1
+if flag==0:
+print("Does not exist")
+[10/11, 13:08] newCODE: def solve(A,k):
+# write your code here
+l=int(A[0])
+l=k-l
+if l not in A[1:]:
+print("Doesn't Exist")
+else:
+print("Exists")
+[10/11, 13:08] newCODE: def solve(A):
+# write your code here
+if len(A)<6:
+return "False"
+else:
+k=(A[0]+A[len(A)-1])/2
+k1=A[1:-1]
+if k not in k1:
+return "False"
+else:
+return "True"
+[10/11, 13:09] newCODE: def solve(A):
+# write your code here
+print(*A,sep=" ")
+[10/11, 13:09] newCODE: def solve(A):
+# write your code here
+s=""
+for i in A:
+if i%2!=0:
+s+=str(i)+" "
+print(s)
+[10/11, 13:10] newCODE: def convert(lst):
+return ' '.join(lst).split()
+def solve(A):
+# write your code
+convert(A)
+vowel='aeiou'
+s=""
+for i in A:
+if i[0] in vowel:
+s+=i+" "
+print(s)
+[10/11, 13:10] newCODE: def solve(A):
+# write your code here
+B=[]
+for i in A:
+i=i*-1
+B.append(i)
+return B
+[10/11, 13:11] newCODE: def solve(A):
+# write your code her
+s=[]
+for i in A:
+if i%2==0:
+s.append(i)
+return s
+[10/11, 13:11] newCODE: def solve(student_list):
+# write your code here
+res = []
+for i in student_list:
+if i not in res:
+res.append(i)
+return res
+[10/11, 13:12] newCODE: def solve(A):
+# write your code here
+s=""
+for i in A:
+if i%2!=0:
+s+=str(i)+" "
+print(s)
+[10/11, 13:12] newCODE: def convert(lst):
+return ' '.join(lst).split()
+def solve(A):
+# write your code
+convert(A)
+vowel='aeiou'
+s=""
+for i in A:
+if i[0] in vowel:
+s+=i+" "
+print(s)
+[10/11, 13:12] newCODE: def solve(A):
+# write your code here
+B=[]
+for i in A:
+i=i*-1
+B.append(i)
+return B
+[10/11, 13:12] newCODE: def solve(A):
+# write your code her
+s=[]
+for i in A:
+if i%2==0:
+s.append(i)
+return s
+[10/11, 13:12] newCODE: def solve(student_list):
+# write your code here
+res = []
+for i in student_list:
+if i not in res:
+res.append(i)
+return res
